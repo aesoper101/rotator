@@ -44,5 +44,5 @@ export default defineComponent({
 
 ```
 
-## [Live Demo](http://vue3-angle.github.io/)
+## [Live Demo](https://aesoper101.github.io/vue3-angle/)
 
