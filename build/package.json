@@ -1,0 +1,32 @@
+{
+  "name": "vue3-angle",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.esm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aesoper101/vue3-angle.git"
+  },
+  "types": "index.d.ts",
+  "keywords": [
+    "vue3",
+    "angle",
+    "vue3-angle",
+    "rotate",
+    "degree"
+  ],
+  "author": "aesoper",
+  "license": "MIT",
+  "peerDependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^3.0.5"
+  },
+  "bugs": {
+    "url": "https://github.com/aesoper101/vue3-angle/issues"
+  },
+  "homepage": "https://github.com/aesoper101/vue3-angle#readme"
+}
