@@ -53,15 +53,12 @@ export interface DragEventOption {
   end?: (event: Event) => void;
 }
 
-export const  triggerDragEvent = (
-  element: HTMLElement,
-  options: DragEventOption
-): void => {
-  const moveFn = function(event: Event) {
+export const triggerDragEvent = (element: HTMLElement, options: DragEventOption): void => {
+  const moveFn = function (event: Event) {
     options.drag?.(event);
   };
 
-  const upFn = function(event: Event) {
+  const upFn = function (event: Event) {
     document.removeEventListener("mousemove", moveFn, false);
     document.removeEventListener("mouseup", upFn, false);
     document.onselectstart = null;

@@ -1,23 +1,28 @@
 # vue3-angle
 
 ## Installation
+
 ```
 yarn add vue3-angle
 ```
+
 or
+
 ```
 npm install vue3-angle
 ```
 
 ### Global registration
+
 ```
 import Angle from "vue3-angle";
-import "vue3-angle/style/bundle.css";
+import "vue3-angle/style.css";
 
 app.use(Angle)
 ```
 
 ### Use as a component
+
 ```
 <template>
   <div class="home">
@@ -45,4 +50,3 @@ export default defineComponent({
 ```
 
 ## [Live Demo](https://aesoper101.github.io/vue3-angle/)
-
